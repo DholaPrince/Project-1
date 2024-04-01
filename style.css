@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.TopMenu{
+  background-color: #7601BF;
+  height: 25px;
+  padding: 15px 20px;
+}
+.TopMenu span{
+  color: white;
+}
+.TopMenu a{
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .nav {
+  list-style: none;
+  display: flex;
+}
+
+.header .nav li {
+  padding: 0 15px;
+}
+
+.header .nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header .nav li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .header {
+      flex-direction: column;
+  }
+
+  .header .nav {
+      flex-direction: column;
+      padding: 0;
+  }
+
+  .header .nav li {
+      padding: 5px 0;
+  }
+}
+
+/* Banner Part */
+
+.b1 {
+  width: 450px;
+  height: 400px;
+  margin-left: 40px;
+  background-image: url(https://hadalakitchenequipment.com/wp-content/uploads/2023/05/One-Stop-Kitchen-Equipment-Solution-Banner-1.webp);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.b2{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin-left: 520px;
+  margin-top: -420px;
+  background-image: url(https://hadalakitchenequipment.com/wp-content/uploads/2023/05/Best-Selling-Kitchen-Range-Banner-2.webp);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+.b3{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin-left: 520px;
+  background-image: url(https://hadalakitchenequipment.com/wp-content/uploads/2023/05/Ice-Cream-Machine-Banner-Home-Page.webp);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+.b4{
+  width: 280px;
+  height: 400px;
+  position: relative;
+  margin-left: 950px;
+  margin-top: -440px;
+  background-image: url(https://hadalakitchenequipment.com/wp-content/uploads/2023/05/Banner_4_new.webp);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+/* Services part */
+
+.services-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+.service-item {
+  width: 30%;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.service-item img {
+  max-width: 100%;
+  height: auto;
+}
+.service-item h3 {
+  margin-top: 15px;
+}
+.service-item p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+/* Catogaries */
+
+
+/* About Us Part */
+.AB{
+  display: flex;
+  justify-content: space-around;
+}
+.about{
+  width: 500px;
+  margin-left: 30px;
+}
+
+/* Customer Review Part */
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding-top: 40px;
+}
+
+.slide {
+  min-width: 30%;
+  margin-left: 35px;
+  }
+
+.inner{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.small{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.dots {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+/* Footer Part */
+
+.footer{
+  background-color: black;
+  color: white;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.r1{
+  width: 250px;
+  align-items: center;
+  position: relative;
+  margin-left: 20px;
+}
+.r2{
+  width: 250px;
+  align-items: center;
+  position: relative;
+  margin-left: 300px;
+  margin-top: -175px;
+}
+.r3{
+  width: 250px;
+  align-items: center;
+  position: relative;
+  margin-left: 580px;
+  margin-top: -158px;
+}
+.r4{
+  width: 250px;
+  align-items: center;
+  position: relative;
+  margin-left: 860px;
+  margin-top: -158px;
+}
+.r5{
+  display: flex;
+  align-items: center;
+}
